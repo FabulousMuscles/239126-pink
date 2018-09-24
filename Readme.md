@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Endless Hatred](https://up.htmlacademy.ru/adaptive/15/user/239126).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Балабанович](https://up.htmlacademy.ru/htmlcss/22/user/6394).
 
 ---
 
