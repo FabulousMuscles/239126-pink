@@ -9,10 +9,10 @@
 <body>
   <header class="page-header">
     <div class="page-header__wrapper">
-      <a class="page-header__logo logo">
-        <img class="logo__image" src="img/path" alt="pink-logo-image" width="75" height="25">
-      </a>
       <nav class="header-nav">
+        <a class="header-nav__logo">
+          <img src="img/path" alt="pink-logo-image" width="75" height="25">
+        </a>
         <button class="header-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="header-nav__list list-reset nav-list">
           <li class="nav-list__item">
@@ -32,50 +32,75 @@
     </div>
   </header>
   <main class="page-main">
-    <h1 class="page-main__title visually-hidden">Мобильное приложение: Пинк</h1>
+    <h1 class="visually-hidden">Мобильное приложение: Пинк</h1>
     <section class="page-main__item download-app">
       <div class="download-app__wrapper">
-        <h2 class="download-app__title visually-hidden">Скачать приложение.</h2>
-        <a href="#" class="download-app__link button button--download">Скачать приложение</a>
+        <h2 class="visually-hidden">Скачать приложение.</h2>
+        <a href="#" class="button button--white">Скачать приложение</a>
+        <ul class="download-app__list">
+          <li class="download-app__list-item download-app__list-item--ios">
+            <a href="#"><span class="visually-hidden">Itunes</span></a>
+          </li>
+          <li class="download-app__list-item download-app__list-item--android">
+            <a href="#"><span class="visually-hidden">Play Маркет</span></a>
+          </li>
+          <li class="download-app__list-item download-app__list-item--windows-phone">
+            <a href="#"><span class="visually-hidden">Windows Phone Маркет</span></a>
+          </li>
+        </ul>
         <p class="download-app__paragraph">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </div>
     </section>
     <section class="page-main__item promo">
       <div class="promo__wrapper">
-        <h2 class="promo__title visually-hidden">Приложение, которое скрасит ваши серые будни</h2>
+        <h2 class="visually-hidden">Приложение, которое скрасит ваши серые будни</h2>
         <p class="promo__paragraph">Устали от серости мегаполиса?</p>
         <p class="promo__paragraph">Нам есть, что вам предложить!</p>
       </div>
     </section>
     <section class="page-main__item features">
       <div class="features__wrapper">
-        <h2 class="features__title visually-hidden">Особенности нашего приложения.</h2>
+        <h2 class="visually-hidden">Особенности нашего приложения.</h2>
         <ul class="features__list">
           <li class="features__list-item">
-            <h3 class="features__title">Поднимает настроение</h3>
-            <p class="features__paragraph">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            <h3>Поднимает настроение</h3>
+            <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
           </li>
           <li class="features__list-item">
-            <h3 class="features__title">Меняет мир вокруг</h3>
-            <p class="features__paragraph">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            <h3>Меняет мир вокруг</h3>
+            <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
           </li>
           <li class="features__list-item">
-            <h3 class="features__title">Заводит новых друзей</h3>
-            <p class="features__paragraph">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            <h3>Заводит новых друзей</h3>
+            <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
       </div>
     </section>
     <section class="page-main__item reviews">
-      <h2 class="reviews__title visually-hidden">Отзывы о нас.</h2>
+      <h2 class="visually-hidden">Отзывы о нас.</h2>
       <div class="reviews__wrapper">
-        <div class="reviews__slide js-slide-one">
-          <blockquote class="reviews__item">
-            <cite class="reviews__author-name">Николай Петров</cite>
-            <p class="reviews__paragraph">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-          </blockquote>
+        <div class="reviews__slides">
+          <div class="reviews__slide reviews__slide--active js-slide-one">
+            <blockquote class="reviews__item">
+              <cite class="reviews__author-name">Николай Петров</cite>
+              <p class="reviews__paragraph">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </blockquote>
+          </div>
+          <div class="reviews__slide js-slide-one">
+            <blockquote class="reviews__item">
+              <cite class="reviews__author-name">Николай Петров</cite>
+              <p class="reviews__paragraph">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </blockquote>
+          </div>
+          <div class="reviews__slide js-slide-one">
+            <blockquote class="reviews__item">
+              <cite class="reviews__author-name">Николай Петров</cite>
+              <p class="reviews__paragraph">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </blockquote>
+          </div>
         </div>
-        <section class="review__toggle controls">
+        <section class="controls">
           <h2 class="visually-hidden">Кнопки переключения</h2>
           <ul class="controls__list list-reset">
             <li class="controls__list-item">
@@ -151,7 +176,7 @@
             </tr>
           </tbody>
         </table>
-        <section class="price__toggle controls">
+        <section class="controls">
           <h2 class="visually-hidden">Кнопки переключения</h2>
           <ul class="controls__list list-reset">
             <li class="controls__list-item">
@@ -188,8 +213,8 @@
   </main>
   <footer class="page-footer page-footer--none">
     <div class="page-footer__wrapper">
-      <a class="page-footer__logo logo">
-        <img class="logo__image" src="img/path" alt="pink-logo-image" width="147" height="40">
+      <a class="page-footer__logo">
+        <img src="img/path" alt="pink-logo-image" width="147" height="40">
       </a>
       <div class="page-footer__social social">
         <ul class="social__list">

@@ -9,10 +9,10 @@
 <body>
   <header class="page-header">
     <div class="page-header__wrapper">
-      <a class="page-header__logo logo">
-        <img class="logo__image" src="img/path" alt="pink-logo-image" width="75" height="25">
-      </a>
       <nav class="header-nav">
+        <a href="index.html" class="header-nav__logo">
+          <img src="img/path" alt="pink-logo-image" width="75" height="25">
+        </a>
         <button class="header-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="header-nav__list list-reset nav-list">
           <li class="nav-list__item">
@@ -37,47 +37,47 @@
       <div class="pictures__wrapper">
         <h2 class="pictures__title visually-hidden">Галерея изображений</h2>
         <p class="pictures__paragraph">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
-        <a href="#" class="pictures__link">
-          <img class="pictures__img pictures__img--panorama" src="path/pic" alt="Панорама в лесу" width="320" height="137">
+        <a href="#" class="pictures__link pictures__link--panorama">
+          <img src="path/pic" alt="Панорама в лесу" width="320" height="137">
           <p class="pictures__nickname">Анна<span class="pictures__date">(5 минут назад)</span></p>
           <p class="pictures__comment">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-          <p class="pictures__likes">Нравится: 215</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 215</p>
         </a>
         <a href="#" class="pictures__link">
-          <img class="pictures__img" src="path/pic" alt="фото машины" width="280" height="180">
+          <img src="path/pic" alt="фото машины" width="280" height="180">
           <p class="pictures__nickname">Левон<span class="pictures__date">(5 часов назад)</span></p>
           <p class="pictures__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-          <p class="pictures__likes">Нравится: 356</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 356</p>
         </a>
         <a href="#" class="pictures__link">
-          <img class="pictures__img" src="path/pic" alt="барабаны" width="280" height="180">
+          <img src="path/pic" alt="барабаны" width="280" height="180">
           <p class="pictures__nickname">Антон<span class="pictures__date">(12 часов назад)</span></p>
           <p class="pictures__comment">Соседи будут рады!</p>
-          <p class="pictures__likes">Нравится: 666</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 666</p>
         </a>
         <a href="#" class="pictures__link">
-          <img class="pictures__img" src="path/pic" alt="стеклянная крыша" width="280" height="180">
+          <img src="path/pic" alt="стеклянная крыша" width="280" height="180">
           <p class="pictures__nickname">Борис<span class="pictures__date">(20 часов назад)</span></p>
           <p class="pictures__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
-          <p class="pictures__likes">Нравится: 215</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 215</p>
         </a>
         <a href="#" class="pictures__link">
-          <img class="pictures__img" src="path/pic" alt="кубанская бахча" width="280" height="180">
+          <img src="path/pic" alt="кубанская бахча" width="280" height="180">
           <p class="pictures__nickname">Сергей<span class="pictures__date">(25 часов назад)</span></p>
           <p class="pictures__comment">Самая кубанская в мире!</p>
-          <p class="pictures__likes">Нравится: 4</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 4</p>
         </a>
         <a href="#" class="pictures__link">
-          <img class="pictures__img" src="path/pic" alt="на природе" width="280" height="180">
+          <img src="path/pic" alt="на природе" width="280" height="180">
           <p class="pictures__nickname">Максим<span class="pictures__date">(40 часов назад)</span></p>
           <p class="pictures__comment">Где снег-то?</p>
-          <p class="pictures__likes">Нравится: 150</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 150</p>
         </a>
         <a href="#" class="pictures__link">
-          <img class="pictures__img" src="path/pic" alt="крыло самолёта" width="280" height="180">
+          <img src="path/pic" alt="крыло самолёта" width="280" height="180">
           <p class="pictures__nickname">Надежда<span class="pictures__date">(45 часов назад)</span></p>
           <p class="pictures__comment">Всем GM и взаимные лайки!</p>
-          <p class="pictures__likes">Нравится: 2560</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 2560</p>
         </a>
       </div>
     </section>
@@ -116,16 +116,16 @@
               <div class="scale__pin" tabindex="0"><span class="visually-hidden">Кнопка изменения глубины эффекта фото</span></div>
             </div>
           </div>
-          <button class="img-upload__button button button--submit" type="submit">Запостить</button>
-          <button class="img-upload__button button button--cancel" type="button">Отмена</button>
+          <button class="button button--pink" type="submit">Запостить</button>
+          <button class="button button--gray" type="button">Отмена</button>
         </form>
       </div>
     </section>
   </main>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <a class="page-footer__logo logo">
-        <img class="logo__image" src="img/path" alt="pink-logo-image" width="147" height="40">
+      <a class="page-footer__logo">
+        <img src="img/path" alt="pink-logo-image" width="147" height="40">
       </a>
       <div class="page-footer__social social">
         <ul class="social__list">
