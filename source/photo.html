@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Academy: Фотография</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <nav class="header-nav">
+        <a href="index.html" class="header-nav__logo">
+          <img src="img/path" alt="pink-logo-image" width="75" height="25">
+        </a>
+        <button class="header-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="header-nav__list list-reset nav-list">
+          <li class="nav-list__item">
+            <a href="index.html" class="nav-list__link">Главная</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link">Фотография</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="form.html" class="nav-list__link">Конкурс</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#" class="nav-list__link nav-list__link--uppercase">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="page-main">
+    <h1 class="page-main__title">Фотографии пользователей</h1>
+    <section class="page-main__item pictures">
+      <div class="pictures__wrapper">
+        <h2 class="visually-hidden">Галерея изображений</h2>
+        <p class="pictures__paragraph">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+        <a href="#" class="pictures__link pictures__link--panorama">
+          <img src="path/pic" alt="Панорама в лесу" width="320" height="137">
+          <p class="pictures__nickname">Анна<span class="pictures__date">(5 минут назад)</span></p>
+          <p class="pictures__comment">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 215</p>
+        </a>
+        <a href="#" class="pictures__link">
+          <img src="path/pic" alt="фото машины" width="280" height="180">
+          <p class="pictures__nickname">Левон<span class="pictures__date">(5 часов назад)</span></p>
+          <p class="pictures__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 356</p>
+        </a>
+        <a href="#" class="pictures__link">
+          <img src="path/pic" alt="барабаны" width="280" height="180">
+          <p class="pictures__nickname">Антон<span class="pictures__date">(12 часов назад)</span></p>
+          <p class="pictures__comment">Соседи будут рады!</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 666</p>
+        </a>
+        <a href="#" class="pictures__link">
+          <img src="path/pic" alt="стеклянная крыша" width="280" height="180">
+          <p class="pictures__nickname">Борис<span class="pictures__date">(20 часов назад)</span></p>
+          <p class="pictures__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 215</p>
+        </a>
+        <a href="#" class="pictures__link">
+          <img src="path/pic" alt="кубанская бахча" width="280" height="180">
+          <p class="pictures__nickname">Сергей<span class="pictures__date">(25 часов назад)</span></p>
+          <p class="pictures__comment">Самая кубанская в мире!</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 4</p>
+        </a>
+        <a href="#" class="pictures__link">
+          <img src="path/pic" alt="на природе" width="280" height="180">
+          <p class="pictures__nickname">Максим<span class="pictures__date">(40 часов назад)</span></p>
+          <p class="pictures__comment">Где снег-то?</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 150</p>
+        </a>
+        <a href="#" class="pictures__link">
+          <img src="path/pic" alt="крыло самолёта" width="280" height="180">
+          <p class="pictures__nickname">Надежда<span class="pictures__date">(45 часов назад)</span></p>
+          <p class="pictures__comment">Всем GM и взаимные лайки!</p>
+          <p class="pictures__likes"><a href="#" class="pictures__like-button"><span class="visually-hidden">Кнопка лайка</span></a>Нравится: 2560</p>
+        </a>
+      </div>
+    </section>
+    <section class="page-main__item img-upload">
+      <div class="img-upload__wrapper">
+        <h2 class="visually-hidden">Загрузка фотографии</h2>
+        <p class="img-upload__paragraph"> Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+        <form class="img-upload__form" action="https://echo.htmlacademy.ru" method="post">
+          <img class="img-upload__preview" src="path/pic" alt="зимнее фото" width="280" height="374">
+          <div class="img-upload__effects effects">
+            <ul class="effects__list">
+              <li class="effects__list-item">
+                <input class="effects__radio visually-hidden" type="radio" name="effect" id="crop-effect" value="crop" checked>
+                <label class="effects__label" for="crop-effect" tabindex="0">
+                  <span class="effects__icon effects__icon--crop visually-hidden">Обрезать изображение</span>
+                </label>
+              </li>
+              <li class="effects__list-item">
+                <input class="effects__radio visually-hidden" type="radio" name="effect" id="fill-effect" value="fill">
+                <label class="effects__label" for="fill-effect" tabindex="0">
+                  <span class="effects__icon effects__icon--fill visually-hidden">Залить изображение</span>
+                </label>
+              </li>
+              <li class="effects__list-item">
+                <input class="effects__radio visually-hidden" type="radio" name="effect" id="contrast-effect" value="contrast">
+                <label class="effects__label" for="contrast-effect" tabindex="0">
+                  <span class="effects__icon effects__icon--contrast visually-hidden">Контраст изображения</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="img-upload__scale scale">
+            <h2 class="visually-hidden">Контраст эффекта</h2>
+            <input class="scale__value" type="number" name="effect-level" value="80" hidden readonly>
+            <div class="scale__line">
+              <div class="scale__pin" tabindex="0"><span class="visually-hidden">Кнопка изменения глубины эффекта фото</span></div>
+            </div>
+          </div>
+          <button class="button button--pink" type="submit">Запостить</button>
+          <button class="button button--gray" type="button">Отмена</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <a class="page-footer__logo">
+        <img src="img/path" alt="pink-logo-image" width="147" height="40">
+      </a>
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__list-item">
+            <a href="#" class="social__btn social__btn--twitter">
+                <span class="visually-hidden">Твиттер</span>
+              </a>
+          </li>
+          <li class="social__list-item">
+            <a href="#" class="social__btn social__btn--facebook">
+                <span class="visually-hidden">Фэйсбук</span>
+              </a>
+          </li>
+          <li class="social__list-item">
+            <a href="#" class="social__btn social__btn--youtube">
+                <span class="visually-hidden">Ютьюб</span>
+              </a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <p class="copyright__paragraph">Разработано <a class="copyright__link copyright__link--htmlacademy-logo" href="#">HTMLAcademy</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
