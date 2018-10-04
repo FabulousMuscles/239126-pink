@@ -3,10 +3,12 @@
 }
 
 .share-form__legend {
-  display: block;
-  color: $font-color-one;
   font-size: 14px;
   line-height: 30px;
+
+  display: block;
+
+  color: $font-color-one;
 }
 
 .share-form__legend--pink sup {

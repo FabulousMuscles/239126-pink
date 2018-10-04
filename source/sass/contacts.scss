@@ -1,7 +1,9 @@
 .contacts {
-  background-color: $background-color-one;
   min-height: 412px;
+
   text-align: center;
+
+  background-color: $background-color-one;
 }
 
 .contacts__wrapper {
@@ -11,6 +13,7 @@
 .contacts__paragraph {
   font-size: 24px;
   line-height: 32px;
+
   color: $font-color-one;
 }
 
@@ -20,23 +23,30 @@
 
 .contacts__text {
   font-size: 18px;
-  display: block;
-  color: $font-color-one;
   font-weight: 700;
+
+  display: block;
+
+  color: $font-color-one;
 }
 
 .contacts__link {
-  color: $font-color-two;
-  text-decoration: none;
   font-size: 24px;
   font-weight: 300;
 
+  text-decoration: none;
+
+  color: $font-color-two;
+
   &:hover:not(.contacts__link--unnactive) {
-    color: $font-color-one;
     text-decoration: underline;
+
+    color: $font-color-one;
   }
+
   &:active:not(.contacts__link--unnactive) {
-    color: rgba($font-color-one, 0.3);
     text-decoration: none;
+
+    color: rgba($font-color-one, .3);
   }
 }

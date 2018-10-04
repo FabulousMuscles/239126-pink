@@ -1,18 +1,23 @@
 .price {
   min-height: 470px;
+
   background-color: $background-color-two;
 }
 
 .price__table-wrapper {
   position: relative;
-  min-height: 281px;
+
   overflow: hidden;
+
+  min-height: 281px;
 }
 
 .price__table {
   position: absolute;
+
   width: 840px;
   height: 100%;
+
   border-collapse: collapse;
 }
 
@@ -29,23 +34,26 @@
 }
 
 .price__table-header {
-  border-left: 2px solid $border-color-one;
-  text-align: center;
-  margin: 0;
-  padding: 0;
   width: 280px;
   min-height: 98px;
-  background-color: $background-color-four;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+
   color: $font-color-three;
+  border-left: 2px solid $border-color-one;
+  background-color: $background-color-four;
 }
 
- .price__deal-name {
-  margin-top: -9px;
+.price__deal-name {
   display: block;
+
+  margin-top: -9px;
 }
 
 .price__currency {
- display: block;
+  display: block;
 }
 
 .price__table-cell {
@@ -55,20 +63,23 @@
 .price__deal-name {
   font-size: 18px;
   line-height: 30px;
+
   text-transform: lowercase;
 }
 
 .price__currency {
   font-size: 24px;
-  line-height: 30px;
   font-weight: 300;
+  line-height: 30px;
 }
 
 .price__table-cell {
   font-size: 14px;
   line-height: 30px;
-  color: $font-color-one;
+
   padding-left: 24px;
+
+  color: $font-color-one;
   border: 2px solid $border-color-one;
   border-top: none;
 }

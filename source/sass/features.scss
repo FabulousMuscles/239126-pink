@@ -1,5 +1,6 @@
 .features {
   min-height: 786px;
+
   background-color: $background-color-two;
   background-image: url('../img/iphone-screen-mobile@1x.png');
   background-repeat: no-repeat;
@@ -13,11 +14,13 @@
 .features__list-item h3 {
   font-size: 18px;
   line-height: 24px;
+
   color: $font-color-four;
 }
 
 .features__list-item p {
   font-size: 14px;
   line-height: 24px;
+
   color: $font-color-one;
 }

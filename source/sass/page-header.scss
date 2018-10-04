@@ -1,43 +1,34 @@
 .page-header {
-  background-color: $header-color;
   font-size: 18px;
   line-height: 32px;
+
+  background-color: $header-color;
 }
 
 .page-header--index {
+  min-height: 463px;
+
   background-image: url('../img/iphone-hand-mobile@1x.png'),
-                    url('../img/bg-back-mobile@1x.jpg');
+    url('../img/bg-back-mobile@1x.jpg');
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, bottom left;
-  min-height: 463px;
 }
 
 .page-header--inner {
   min-height: 237px;
+
   background-image: url('../img/bg-back-mobile@1x.jpg');
 }
 
-.header-nav {
-  min-height: 66px;
-  background-color: $navigation-color;
-}
-
-.nav-list {
-  display: none;
-  @include list-reset;
-}
-
-.nav-list__link {
-  color: $background-color-one;
-  text-decoration: none;
-}
-
 .page-header__title {
-  margin-top: 25px;
-  text-align: center;
   font-size: 24px;
-  line-height: 33px;
-  color: $font-color-three;
   font-weight: 300;
+  line-height: 33px;
+
+  margin-top: 25px;
   padding: 0 10px;
+
+  text-align: center;
+
+  color: $font-color-three;
 }

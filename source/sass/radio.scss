@@ -3,17 +3,22 @@
 }
 
 .radio__title {
-  text-align: center;
   font-size: 14px;
-  line-height: 18px;
-  color: $font-color-two;
   font-weight: 400;
+  line-height: 18px;
+
   padding: 0 25px;
+
+  text-align: center;
+
+  color: $font-color-two;
 }
 
 .radio__list {
-  @include list-reset;
-  color: $font-color-one;
   font-size: 18px;
   line-height: 30px;
+
+  color: $font-color-one;
+
+  @include list-reset;
 }

@@ -3,49 +3,58 @@
 }
 
 .feedback__title {
-  text-align: center;
   font-size: 14px;
-  line-height: 30px;
-  color: $font-color-two;
   font-weight: 400;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: $font-color-two;
 }
 
 .feedback__textarea {
   font-size: 18px;
   line-height: 30px;
-  padding: 0 12px;
-  padding-top: 20px;
+
   width: 280px;
   height: 200px;
+  padding: 0 12px;
+  padding-top: 20px;
+
   resize: none;
+
   border: solid 2px $border-color-one;
 }
 
 .feedback__textarea::-moz-placeholder {
-  font-weight: 400;
   font-size: 18px;
-  color: $font-color-one;
+  font-weight: 400;
+
   opacity: 1;
+  color: $font-color-one;
 }
 
 .feedback__textarea::-webkit-input-placeholder {
-  font-weight: 400;
   font-size: 18px;
-  color: $font-color-one;
+  font-weight: 400;
+
   opacity: 1;
+  color: $font-color-one;
 }
 
 .feedback__textarea:-moz-placeholder {
-  font-weight: 400;
   font-size: 18px;
-  color: $font-color-one;
+  font-weight: 400;
+
   opacity: 1;
+  color: $font-color-one;
 }
 
 
 .feedback__textarea:-ms-input-placeholder {
-  font-weight: 400;
   font-size: 18px;
-  color: $font-color-one;
+  font-weight: 400;
+
   opacity: 1;
+  color: $font-color-one;
 }

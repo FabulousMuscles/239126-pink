@@ -3,15 +3,17 @@
 }
 
 .popup-failure__title {
-  color: $font-color-four;
   font-size: 18px;
   line-height: 24px;
+
+  color: $font-color-four;
 }
 
 .popup-failure__paragraph {
-  color: $font-color-one;
   font-size: 14px;
   line-height: 24px;
+
+  color: $font-color-one;
 }
 
 .popup-failure .button-form {

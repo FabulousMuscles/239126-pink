@@ -1,0 +1,11 @@
+.nav-list {
+  display: none;
+
+  @include list-reset;
+}
+
+.nav-list__link {
+  text-decoration: none;
+
+  color: $background-color-one;
+}
