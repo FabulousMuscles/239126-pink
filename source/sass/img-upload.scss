@@ -1,0 +1,19 @@
+.img-upload {
+  background-color: $background-color-one;
+}
+
+.img-upload__paragraph {
+  font-size: 14px;
+  line-height: 30px;
+  color: $font-color-one;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.img-upload__form {
+  background-color: $background-color-two;
+}
+
+.effects__list {
+  @include list-reset;
+}

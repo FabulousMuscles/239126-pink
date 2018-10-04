@@ -1,0 +1,19 @@
+.radio {
+  background-color: $background-color-two;
+}
+
+.radio__title {
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: $font-color-two;
+  font-weight: 400;
+  padding: 0 25px;
+}
+
+.radio__list {
+  @include list-reset;
+  color: $font-color-one;
+  font-size: 18px;
+  line-height: 30px;
+}

@@ -1,0 +1,74 @@
+.price {
+  min-height: 470px;
+  background-color: $background-color-two;
+}
+
+.price__table-wrapper {
+  position: relative;
+  min-height: 281px;
+  overflow: hidden;
+}
+
+.price__table {
+  position: absolute;
+  width: 840px;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.price__table--first {
+  transform: translateX(0);
+}
+
+.price__table--middle {
+  transform: translateX(-260px);
+}
+
+.price__table--last {
+  transform: translateX(-520px);
+}
+
+.price__table-header {
+  border-left: 2px solid $border-color-one;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  min-height: 98px;
+  background-color: $background-color-four;
+  color: $font-color-three;
+}
+
+ .price__deal-name {
+  margin-top: -9px;
+  display: block;
+}
+
+.price__currency {
+ display: block;
+}
+
+.price__table-cell {
+  width: 280px;
+}
+
+.price__deal-name {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: lowercase;
+}
+
+.price__currency {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.price__table-cell {
+  font-size: 14px;
+  line-height: 30px;
+  color: $font-color-one;
+  padding-left: 24px;
+  border: 2px solid $border-color-one;
+  border-top: none;
+}

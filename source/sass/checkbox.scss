@@ -1,0 +1,18 @@
+.checkbox {
+  background-color: $background-color-two;
+}
+
+.checkbox__title {
+  font-size: 14px;
+  line-height: 18px;
+  color: $font-color-two;
+  font-weight: 400;
+}
+
+.checkbox__list {
+  @include list-reset;
+  color: $font-color-one;
+  font-size: 18px;
+  line-height: 30px;
+}
+

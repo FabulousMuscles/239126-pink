@@ -1,0 +1,14 @@
+.share-form {
+  background-color: $background-color-one;
+}
+
+.share-form__legend {
+  display: block;
+  color: $font-color-one;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.share-form__legend--pink sup {
+  color: $font-color-two;
+}

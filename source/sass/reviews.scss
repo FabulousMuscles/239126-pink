@@ -1,0 +1,31 @@
+.reviews {
+  background-color: $background-color-one;
+  min-height: 353px;
+}
+
+.reviews__item {
+  margin: 0;
+  text-align: center;
+}
+
+.reviews__slide {
+  display: none;
+}
+
+.reviews__slide--active {
+  display: block;
+}
+
+.reviews__author-name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: $font-color-four;
+  font-style: normal;
+}
+
+.reviews__paragraph {
+  font-size: 14px;
+  line-height: 30px;
+  color: $font-color-one;
+}

@@ -1,0 +1,46 @@
+.contact-info {
+  background-color: $background-color-one;
+}
+
+.contact-info label {
+  font-size: 14px;
+  line-height: 30px;
+  display: block;
+  color: $font-color-two;
+}
+
+.contact-info input {
+  width: 280px;
+  height: 62px;
+  border: solid 2px $border-color-one;
+  padding-left: 23px;
+}
+
+.contact-info input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+.contact-info input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+.contact-info input:-moz-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+
+.contact-info input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}

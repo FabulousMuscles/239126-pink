@@ -1,0 +1,9 @@
+html {
+  @include html-reset;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

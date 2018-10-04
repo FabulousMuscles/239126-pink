@@ -1,0 +1,46 @@
+.full-name {
+  background-color: $background-color-one;
+}
+
+.full-name label {
+  font-size: 14px;
+  line-height: 30px;
+  display: block;
+  color: $font-color-two;
+}
+
+.full-name input {
+  width: 280px;
+  height: 62px;
+  border: solid 2px $border-color-one;
+  padding-left: 23px;
+}
+
+.full-name input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+.full-name input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+.full-name input:-moz-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+
+.full-name input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}

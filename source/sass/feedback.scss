@@ -1,0 +1,51 @@
+.feedback {
+  background-color: $background-color-one;
+}
+
+.feedback__title {
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  color: $font-color-two;
+  font-weight: 400;
+}
+
+.feedback__textarea {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 12px;
+  padding-top: 20px;
+  width: 280px;
+  height: 200px;
+  resize: none;
+  border: solid 2px $border-color-one;
+}
+
+.feedback__textarea::-moz-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+.feedback__textarea::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+.feedback__textarea:-moz-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}
+
+
+.feedback__textarea:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: $font-color-one;
+  opacity: 1;
+}

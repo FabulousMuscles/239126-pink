@@ -1,0 +1,42 @@
+.pictures {
+  background-color: $background-color-one;
+}
+
+.pictures__paragraph {
+  font-size: 14px;
+  line-height: 30px;
+  color: $font-color-one;
+  text-align: center;
+  padding: 0 35px;
+}
+
+.pictures__link {
+  background-color: $background-color-two;
+  text-decoration: none;
+}
+
+.pictures__nickname {
+  font-size: 14px;
+  line-height: 24px;
+  color: $font-color-one;
+  font-weight: 700;
+}
+
+.pictures__date {
+  margin-left: 4px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.pictures__comment {
+  font-size: 14px;
+  line-height: 24px;
+  color: $font-color-one;
+  font-weight: 400;
+}
+
+.pictures__likes {
+  font-size: 12px;
+  line-height: 24px;
+  color: $font-color-two;
+}

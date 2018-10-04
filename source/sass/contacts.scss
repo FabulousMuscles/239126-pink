@@ -1,0 +1,42 @@
+.contacts {
+  background-color: $background-color-one;
+  min-height: 412px;
+  text-align: center;
+}
+
+.contacts__wrapper {
+  padding: 0 20px;
+}
+
+.contacts__paragraph {
+  font-size: 24px;
+  line-height: 32px;
+  color: $font-color-one;
+}
+
+.contacts__list {
+  @include list-reset;
+}
+
+.contacts__text {
+  font-size: 18px;
+  display: block;
+  color: $font-color-one;
+  font-weight: 700;
+}
+
+.contacts__link {
+  color: $font-color-two;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 300;
+
+  &:hover:not(.contacts__link--unnactive) {
+    color: $font-color-one;
+    text-decoration: underline;
+  }
+  &:active:not(.contacts__link--unnactive) {
+    color: rgba($font-color-one, 0.3);
+    text-decoration: none;
+  }
+}

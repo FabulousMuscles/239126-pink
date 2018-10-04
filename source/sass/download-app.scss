@@ -1,0 +1,14 @@
+.download-app {
+  min-height: 271px;
+  background-color: $background-color-three;
+}
+
+.download-app__list {
+  @include list-reset;
+}
+
+.download-app__paragraph {
+  color: $font-color-three;
+  font-size: 14px;
+  line-height: 14px;
+}
