@@ -14,8 +14,8 @@
 
 .price__table {
   position: absolute;
+width: 840px;
 
-  width: 840px;
   height: 100%;
 
   border-collapse: collapse;
@@ -50,17 +50,7 @@
   display: block;
 
   margin-top: -9px;
-}
 
-.price__currency {
-  display: block;
-}
-
-.price__table-cell {
-  width: 280px;
-}
-
-.price__deal-name {
   font-size: 18px;
   line-height: 30px;
 
@@ -68,12 +58,16 @@
 }
 
 .price__currency {
+  display: block;
+
   font-size: 24px;
   font-weight: 300;
   line-height: 30px;
 }
 
 .price__table-cell {
+  width: 280px;
+
   font-size: 14px;
   line-height: 30px;
 

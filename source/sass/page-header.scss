@@ -8,8 +8,8 @@
 .page-header--index {
   min-height: 463px;
 
-  background-image: url('../img/iphone-hand-mobile@1x.png'),
-    url('../img/bg-back-mobile@1x.jpg');
+  background-image: url("../img/iphone-hand-mobile@1x.png"),
+    url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, bottom left;
 }
@@ -17,7 +17,7 @@
 .page-header--inner {
   min-height: 237px;
 
-  background-image: url('../img/bg-back-mobile@1x.jpg');
+  background-image: url("../img/bg-back-mobile@1x.jpg");
 }
 
 .page-header__title {
